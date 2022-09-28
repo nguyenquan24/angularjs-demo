@@ -1,0 +1,22 @@
+<html>
+
+<head>
+   <script src="bower_components/angular/angular.js"></script>
+   <script src="bower_components/moment/moment.js"></script>
+   <script src="app.js"></script>
+   <title>AngularJS First Application</title>
+</head>
+
+<body>
+   <h1>Sample Application</h1>
+
+   <div ng-app="mainApp" ng-controller="mainController">
+      <p>Enter your Name: <input type="text" ng-model="name"></p>
+      <p>Hello <span>{{name}}</span>!</p>
+      <div>
+         <span>{{dateTemp}}</span>
+      </div>
+   </div>
+</body>
+
+</html>
